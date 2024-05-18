@@ -33,7 +33,11 @@ height: 1600px;
 padding-top: 40px;
 padding-bottom: 40px;
 box-sizing: border-box;
-width: 370px;
+width: 400px;
+}
+
+.my-photo{
+    margin-left: 25px;
 }
 
 .sidebar-content{
@@ -41,6 +45,7 @@ padding-left: 40px;
 padding-top: 40px;
 padding-right: 40px;
 box-sizing: border-box;
+width: 300px;
 }
 
 /* Contacts */
@@ -131,7 +136,7 @@ line-height: 24px;
 /* main content */
 .my-profession{
     color: #000;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 17px;
     margin-top: 0;
@@ -144,7 +149,7 @@ line-height: 24px;
     font-weight: 700;
     line-height: 55px;
     margin-top: 0;
-    margin-bottom: 12px;
+    margin-bottom: 22px;
 }
 
 .my-descr{
@@ -308,6 +313,7 @@ line-height: normal;
     font-size: 12px;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 40px;
 }
 
 .education-separator{
@@ -321,6 +327,15 @@ line-height: normal;
     line-height: normal;
     margin-top: 0px;
     margin-bottom: 20px;
+}
+
+.education-place-3 {
+    color: #6D9BF5;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 40px;
 }
 
 .sertificat-conteiner-top{
