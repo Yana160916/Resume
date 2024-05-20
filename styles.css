@@ -21,19 +21,29 @@ height: 1600px;
 
 /* main content */
 .main-content{
-    padding-left: 88px;
+    padding-left: 80px;
     padding-top: 80px;
-    padding-right: 40px;
-    padding-bottom: 80px;
+    padding-right: 0px;
+    padding-bottom: 40px;
     box-sizing: border-box;
 }
+
+.summary{
+    color: #161D2A;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 30px;
+        margin-bottom: 8px;
+
+}
+
+
 /* sidebar */
 .sidebar{
     background: #E0EBFE;
-padding-top: 40px;
-padding-bottom: 40px;
 box-sizing: border-box;
-width: 400px;
+width: auto;
 }
 
 .my-photo{
@@ -42,14 +52,13 @@ width: 400px;
 
 .sidebar-content{
 padding-left: 40px;
-padding-top: 40px;
+padding-top: 10px;
 padding-right: 40px;
 box-sizing: border-box;
 width: 350px;
 }
 
 /* Contacts */
-
 
 
 .contacs-title{
@@ -63,15 +72,16 @@ width: 350px;
 
 .contacts-type{
     color: #161D2A;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-margin-right: 8px;
+    margin-right: 0px;
+    margin-bottom: 8px;
 }
 
 .contacts-link{
     color: #2979FF;
-font-size: 14px;
+font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 text-decoration-line: underline;
@@ -82,8 +92,16 @@ margin-left: 10px;
     margin-top: 0;
     margin-bottom: 4px;
 }
+
+.contacts-location{
+    margin-left: 8px;
+}
+
+.contacts-title{
+    margin-left: 8px;
+}
+
 .contacts-conteiner{
-    margin-bottom: 40px;
 
 }
 /* skills conteiner */
@@ -113,7 +131,7 @@ line-height: 24px;
 
 /* soft skills */
 .soft-skills-conteiner{
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
 .soft-skills-title{
@@ -143,7 +161,7 @@ line-height: 24px;
     font-weight: 700;
     line-height: 17px;
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 20px;
 }
 
 .my-name{
@@ -152,11 +170,11 @@ line-height: 24px;
     font-weight: 700;
     line-height: 55px;
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 
 .my-descr{
-    color: #595959;
+    color: #000000;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px; 
@@ -164,7 +182,7 @@ line-height: 24px;
 }
 
 .my-info{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 /* My projects */
@@ -176,7 +194,7 @@ line-height: 24px;
     font-weight: 700;
     line-height: 27px;  
     margin-top: 0;
-    margin-bottom: 8px;
+    margin-bottom: 22px;
 }
 
 .my-project-item{
@@ -184,6 +202,17 @@ line-height: 24px;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
+    padding-right: 8px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.project-class{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-right: 8px;
 }
 
 .my-projects-list{
@@ -210,6 +239,14 @@ line-height: 24px;
     margin-top: 40px;
 }
 
+.project-descr{
+    color: #000;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        padding-right: 8px;
+}
+
 
 /* work expetiance */
 
@@ -218,7 +255,7 @@ line-height: 24px;
     font-size: 14px;
     font-weight: 700;
     line-height: 27px;
-    margin-top: 20px;
+    margin-top: 12px;
     margin-bottom: 8px;
 }
 
@@ -227,8 +264,8 @@ line-height: 24px;
     font-size: 22px;
     font-weight: 700;
     line-height: 27px;
-    margin-top: 20px;
-    margin-bottom: 8px;
+    margin-top: 22px;
+    margin-bottom: 22px;
 
 }
 
@@ -247,7 +284,7 @@ line-height: 24px;
 }
 
 .work-experiance-period{
-    color: #A8A8A8;
+    color: #050505;
     font-size: 12px;
     font-weight: 400;
     line-height: 15px;  
@@ -259,11 +296,10 @@ line-height: 24px;
 }
 
 .work-experiance-duties-list{
-   padding-left: 16px; 
 }
 
 .work-experiance-duties-item{
-    color: #595959;
+    color: #000000;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -275,7 +311,7 @@ line-height: 24px;
 
 /* Education */
 .education-conteiner{
-    margin-top: 40px;
+    margin-top: 22px;
 }
 
 .education-conteiner-top{
@@ -283,7 +319,6 @@ line-height: 24px;
 font-size: 22px;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 8px;
 }
 
 .education-place{
@@ -292,7 +327,7 @@ margin-bottom: 8px;
     font-weight: 700;
     line-height: normal;
     margin-top: 0px;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .education-faculty{
@@ -305,7 +340,7 @@ margin-bottom: 8px;
 }
 
 .education-period{
-    color: #A8A8A8;
+    color: #000000;
 font-size: 12px;
 font-weight: 400;
 line-height: normal;
@@ -316,7 +351,7 @@ line-height: normal;
     font-size: 12px;
     font-weight: 700;
     line-height: normal;
-    margin-bottom: 40px;
+    margin-bottom: 22px;
 }
 
 .education-separator{
@@ -329,7 +364,7 @@ line-height: normal;
     font-weight: 700;
     line-height: normal;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .education-place-3 {
